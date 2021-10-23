@@ -1,0 +1,20 @@
+{
+    "name": "velmesov/php-configs-arrays",
+    "description": "PHP: Configs arrays",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Yuri Velmesov",
+            "email": "yuri.velmesov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config",
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4.0"
+    }
+}
